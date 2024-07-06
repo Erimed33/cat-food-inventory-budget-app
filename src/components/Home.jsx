@@ -5,7 +5,7 @@ const Home = () => {
     const [logs, setLogs] = useState([])
     useEffect(() => {
     
-      fetch('https://localhost:3434/catfood')
+      fetch('http://localhost:3434/catfood')
           .then(res => res.json())
           .then(res => {
               console.log(res)
@@ -21,3 +21,5 @@ const Home = () => {
 }
 
 export default Home
+
+

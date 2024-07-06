@@ -3,6 +3,7 @@ import React from 'react'
 import './App.css'
 import NavBar from './NavBar'
 import Home from './components/Home'
+import ShowLogDetails from './components/ShowDetails'
 import { Routes, Route } from 'react-router-dom'
 
 
@@ -14,6 +15,8 @@ function App() {
     <NavBar />
     <Routes>
       <Route path='/catfood' element={ <Home />} />
+      <Route path='/catfood/:index' element={<ShowLogDetails />}>
+      </Route>
     </Routes>
     </div>
   )

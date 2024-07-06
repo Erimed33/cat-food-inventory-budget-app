@@ -5,7 +5,8 @@ import { Routes, Route} from 'react-router-dom'
 const NavBar = () => {
   return (
     <div>
-        <h1>Cat Food Inventory</h1>
+        <h1>
+          <Link to='/catfood'>Cat Food Inventory</Link></h1>
         <ul>
             <li>
             <Link to='/about'>About</Link>

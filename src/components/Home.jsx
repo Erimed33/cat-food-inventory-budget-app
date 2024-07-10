@@ -4,9 +4,9 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     const [catfoodInventory, setCatfoodInventory] = useState([]);
-
+    const API = import.meta.env.VITE_BASE_URL; 
     useEffect(() => {
-        fetch('http://localhost:3434/catfood')
+        fetch(API)
             .then(res => res.json())
             .then(res => {
                 // setLogs to be the array of objects

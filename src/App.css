@@ -1,1 +1,23 @@
+div {
+    margin: 0;
+    border: solid 2px black;
+
+}
+
+* {
+
+text-decoration: none;
+}
+
+.navbar {
+    background-color: aquamarine;
+
+}
+
+.logo-link {
+    color: #555050; /* Default color */
+    text-decoration: none; 
+    padding: 20px;
+    font-family: 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
 

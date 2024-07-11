@@ -20,7 +20,7 @@ const nobullet = {
                 
 }
     return (
-        <div>
+        <div className='food-details'>
             <ul style={nobullet}> 
                 <h4>DETAILS</h4>
           

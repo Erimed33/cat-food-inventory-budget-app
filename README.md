@@ -10,3 +10,14 @@ Mr. and Mrs. Whiskers faced a recurring issue: they couldn't accurately monitor 
 The Solution
 Determined to solve this problem, Mr. Whiskers decided to develop a Cat Food Inventory Budget App. This app would help them keep a precise record of the cat food coming into the store and track the prices of each item. By using this app, they could easily manage their inventory, forecast future needs, and stay within their budget.
 
+
+Backend github repo:
+https://github.com/Erimed33/backend-catfood-inventory
+
+Backend deploy link:
+
+
+
+Front end deploy link:
+
+

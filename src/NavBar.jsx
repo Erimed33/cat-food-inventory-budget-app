@@ -6,7 +6,7 @@ import './styles/navbar.css'
 
 const NavBar = () => {
   return (
-    <div>
+    <nav>
         <h1>
           <Link to='/catfood' className='logo-link'>Budget App</Link></h1>
         <ul>
@@ -18,7 +18,7 @@ const NavBar = () => {
 
         </ul>
         
-        </div>
+        </nav>
   )
 }
 

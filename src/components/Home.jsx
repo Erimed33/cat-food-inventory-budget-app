@@ -16,9 +16,10 @@ const Home = () => {
     }, []);
 
     return (
-        <div>
+        <div className="inventory-container">
             {catfoodInventory.map((catFood, i) => (
-                <div key={i}>
+                <div key={i}
+                className='catfood-link'>
                     <Link to={`/catfood/${i}`}>
                     {catFood.date} {catFood.item_name} {catFood.amount}</Link>
                 </div>
